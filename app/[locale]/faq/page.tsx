@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 import { faqs } from '@/data/faq';
 import FAQ from '@/components/FAQ';
 
@@ -9,7 +9,12 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   };
 }
 
-export default async function FAQPage() {
+export default async function FAQPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  setRequestLocale(locale);
   return <FAQ faqs={faqs} />;
 }
 

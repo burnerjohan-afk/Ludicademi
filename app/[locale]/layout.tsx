@@ -1,7 +1,7 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
-import { locales } from '@/lib/locales';
+import { locales, type Locale } from '@/lib/locales';
 import { lato, playfair } from '@/lib/fonts';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -18,11 +18,11 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  if (!locales.includes(locale as any)) {
+  if (!locales.includes(locale as Locale)) {
     notFound();
   }
 
-  setRequestLocale(locale);
+  setRequestLocale(locale as Locale);
   const messages = (await import(`../../messages/${locale}.json`)).default;
 
   return (
