@@ -1,11 +1,16 @@
 import createMiddleware from 'next-intl/middleware';
-import { routing } from './i18n/routing';
 
-export default createMiddleware(routing);
+// Config inline : aucun import depuis i18n/ (compatible Edge Vercel)
+export default createMiddleware({
+  locales: ['fr', 'en'],
+  defaultLocale: 'fr',
+  localePrefix: 'always',
+});
 
 export const config = {
   matcher: [
-    // Exclure API, assets Next/Vercel et fichiers statiques (favicon, images, etc.)
+    '/',
+    '/(fr|en)/:path*',
     '/((?!api|_next|_vercel|.*\\..*).*)',
   ],
 };

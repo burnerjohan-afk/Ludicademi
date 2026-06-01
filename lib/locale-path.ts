@@ -1,4 +1,4 @@
-import { locales, type Locale } from '@/i18n';
+import { locales, type Locale } from '@/lib/locales';
 
 export function stripLocaleFromPathname(pathname: string): string {
   const segments = pathname.split('/').filter(Boolean);

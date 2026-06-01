@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { locales } from '@/i18n';
+import { locales } from '@/lib/locales';
 import { excursions } from '@/data/excursions';
 import { stays } from '@/data/stays';
 import { getAllBlogPosts } from '@/data/blog';
