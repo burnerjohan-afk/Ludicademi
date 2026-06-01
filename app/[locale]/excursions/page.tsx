@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { excursions } from '@/data/excursions';
 import ExcursionCard from '@/components/ExcursionCard';
 
@@ -27,6 +27,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 }
 
 export default async function ExcursionsPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   const t = await getTranslations('excursions');
   const tCommon = await getTranslations('common');
   const localeKey = locale as 'fr' | 'en';

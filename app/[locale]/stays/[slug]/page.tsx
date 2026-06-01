@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import { getStayBySlug } from '@/data/stays';
 import CTAButton from '@/components/CTAButton';
@@ -43,6 +43,7 @@ export default async function StayPage({
 }: {
   params: { locale: string; slug: string };
 }) {
+  setRequestLocale(locale);
   const t = await getTranslations('stays');
   const localeTyped = locale as 'fr' | 'en';
   const stay = getStayBySlug(slug, localeTyped);

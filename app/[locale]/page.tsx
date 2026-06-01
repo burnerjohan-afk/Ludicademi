@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { excursions } from '@/data/excursions';
 import { stays } from '@/data/stays';
 import { faqs } from '@/data/faq';
@@ -90,6 +90,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 }
 
 export default async function HomePage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   const t = await getTranslations('home');
   const tCommon = await getTranslations('common');
   const tExcursions = await getTranslations('excursions');

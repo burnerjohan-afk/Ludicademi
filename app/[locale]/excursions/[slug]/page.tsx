@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import { getExcursionBySlug } from '@/data/excursions';
 import CTAButton from '@/components/CTAButton';
@@ -45,6 +45,7 @@ export default async function ExcursionPage({
 }: {
   params: { locale: string; slug: string };
 }) {
+  setRequestLocale(locale);
   const t = await getTranslations('excursions');
   const localeTyped = locale as 'fr' | 'en';
   const excursion = getExcursionBySlug(slug, localeTyped);

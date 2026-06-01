@@ -38,7 +38,9 @@ export default async function BlogPage({ params: { locale } }: { params: { local
             Blog
           </h1>
           <p className="text-xl text-gray-700 leading-relaxed max-w-3xl mx-auto">
-            Découvrez nos articles sur la Martinique, l'immersion culturelle et les voyages authentiques
+            {localeKey === 'fr'
+              ? 'Découvrez nos articles sur la Martinique, l\u2019immersion culturelle et les voyages authentiques'
+              : 'Discover our articles about Martinique, cultural immersion and authentic travel'}
           </p>
         </div>
 

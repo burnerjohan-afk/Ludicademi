@@ -139,10 +139,12 @@ export default async function BlogPostPage({
           {/* CTA Section */}
           <div className="bg-primary-400 rounded-2xl p-8 text-center text-white mb-8">
             <h2 className="text-3xl md:text-4xl font-display font-bold mb-4 text-spacing-tight">
-              Prêt à vivre l'expérience ?
+              {localeKey === 'fr' ? 'Prêt à vivre l\u2019expérience ?' : 'Ready to live the experience?'}
             </h2>
             <p className="text-lg mb-6">
-              Découvrez nos excursions et séjours immersifs en Martinique
+              {localeKey === 'fr'
+                ? 'Découvrez nos excursions et séjours immersifs en Martinique'
+                : 'Discover our excursions and immersive stays in Martinique'}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <CTAButton

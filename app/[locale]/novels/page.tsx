@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import { novels } from '@/data/novels';
 
@@ -10,6 +10,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 }
 
 export default async function NovelsPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   const t = await getTranslations('home.novels');
   const localeKey = locale as 'fr' | 'en';
 

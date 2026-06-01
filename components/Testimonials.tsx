@@ -78,7 +78,7 @@ export default function Testimonials() {
                 ))}
               </div>
               <p className="text-gray-700 mb-6 leading-relaxed italic">
-                "{testimonial.text[locale]}"
+                &ldquo;{testimonial.text[locale]}&rdquo;
               </p>
               <div className="border-t border-gray-100 pt-4">
                 <div className="font-semibold text-neutral-dark mb-1">

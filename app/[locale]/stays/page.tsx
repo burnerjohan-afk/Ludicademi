@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import { stays } from '@/data/stays';
 import StayCard from '@/components/StayCard';
@@ -29,6 +29,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 }
 
 export default async function StaysPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   const t = await getTranslations('stays');
   const tCommon = await getTranslations('common');
   const localeKey = locale as 'fr' | 'en';

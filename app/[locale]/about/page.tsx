@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import CTAButton from '@/components/CTAButton';
 import { getLocalizedPath } from '@/lib/utils';
@@ -12,6 +12,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 }
 
 export default async function AboutPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   const t = await getTranslations('about');
 
   return (
