@@ -1,1 +1,1 @@
-export { locales, defaultLocale, type Locale } from '@/lib/locales';
+export { locales, defaultLocale, type Locale } from './i18n/locales';

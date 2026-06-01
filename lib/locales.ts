@@ -1,3 +1,1 @@
-export const locales = ['fr', 'en'] as const;
-export type Locale = (typeof locales)[number];
-export const defaultLocale: Locale = 'fr';
+export { locales, defaultLocale, type Locale } from '../i18n/locales';
