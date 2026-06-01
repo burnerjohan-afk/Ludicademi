@@ -1,9 +1,7 @@
-'use client';
-
 import { getLocalizedPath } from '@/lib/utils';
 import CTAButton from '@/components/CTAButton';
 import StayCard from '@/components/StayCard';
-import CustomImmersionForm from '@/components/CustomImmersionForm';
+import CustomImmersionFormSlot from '@/components/home/CustomImmersionFormSlot';
 import { Stay } from '@/types';
 
 interface ImmersiveStaySectionProps {
@@ -44,10 +42,7 @@ export default function ImmersiveStaySection({
           {stays.map((stay) => (
             <StayCard key={stay.id} stay={stay} locale={locale} labels={cardLabels} />
           ))}
-
-          <div className="h-full" id="sejour-sur-mesure">
-            <CustomImmersionForm />
-          </div>
+          <CustomImmersionFormSlot />
         </div>
 
         <div className="text-center">
