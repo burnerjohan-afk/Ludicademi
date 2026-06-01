@@ -10,6 +10,7 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      { source: '/', destination: '/fr', permanent: false },
       { source: '/excursions', destination: '/fr/excursions', permanent: false },
       { source: '/excursions/:path*', destination: '/fr/excursions/:path*', permanent: false },
       { source: '/stays', destination: '/fr/stays', permanent: false },
