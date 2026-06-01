@@ -1,0 +1,225 @@
+{
+  "common": {
+    "bookNow": "Réserver maintenant",
+    "learnMore": "En savoir plus",
+    "contactUs": "Nous contacter",
+    "requestInfo": "Demander des infos",
+    "readMore": "Lire la suite",
+    "back": "Retour",
+    "close": "Fermer",
+    "menu": "Menu",
+    "language": "Langue"
+  },
+  "nav": {
+    "home": "Accueil",
+    "excursions": "Excursions",
+    "immersiveStays": "Séjours immersifs",
+    "novels": "Romans",
+    "about": "À propos",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Découvrez la Martinique autrement",
+    "subtitle": "Excursions authentiques et séjours immersifs pour vivre la culture caribéenne",
+    "hero": {
+      "title": "Bienvenue en Martinique",
+      "subtitle": "Immersion culturelle et découvertes authentiques",
+      "cta": "Découvrir nos expériences"
+    },
+    "features": {
+      "title": "Pourquoi choisir LUDICADEMI",
+      "authentic": {
+        "title": "Authenticité",
+        "description": "Expériences locales authentiques guidées par un expert"
+      },
+      "cultural": {
+        "title": "Immersion culturelle",
+        "description": "Découvrez la culture, l'histoire et le patrimoine martiniquais"
+      },
+      "personalized": {
+        "title": "Personnalisé",
+        "description": "Expériences sur mesure adaptées à vos envies"
+      },
+      "award": {
+        "title": "Récompensé",
+        "description": "Travel & Hospitality Award"
+      }
+    },
+    "featuredExcursions": {
+      "title": "Nos excursions phares",
+      "subtitle": "Découvrez nos expériences les plus populaires"
+    },
+    "featuredStay": {
+      "title": "Séjour immersif complet",
+      "subtitle": "Plongez au cœur de la culture martiniquaise"
+    },
+    "novels": {
+      "title": "Romans caribéens",
+      "subtitle": "Prolongez l'immersion avec les romans de PHAYNE ANTON",
+      "description": "Découvrez des histoires qui vous transportent au cœur des Caraïbes"
+    },
+    "about": {
+      "title": "À propos du fondateur",
+      "description": "Passionné par la culture caribéenne et expert en immersion culturelle"
+    },
+    "journey": {
+      "title": "Choisissez votre niveau d'immersion",
+      "description": "De quelques heures à plusieurs jours, vivez la Martinique à votre rythme",
+      "excursion": {
+        "duration": "1 journée",
+        "title": "Excursion guidée",
+        "description": "Découvrez un territoire en une journée avec un guide passionné",
+        "cta": "Voir les excursions"
+      },
+      "stay": {
+        "duration": "2 à 8 jours",
+        "title": "Séjour immersif",
+        "description": "Culture, créole et rencontres sur plusieurs jours",
+        "cta": "Voir les séjours"
+      },
+      "custom": {
+        "duration": "Sur mesure",
+        "title": "Votre programme",
+        "description": "Composez votre séjour idéal activité par activité",
+        "cta": "Créer mon séjour"
+      }
+    },
+    "blogTeaser": {
+      "title": "Inspirez-vous avant de partir",
+      "description": "Conseils, itinéraires et culture martiniquaise sur notre blog",
+      "viewAll": "Voir tous les articles"
+    },
+    "faqTeaser": {
+      "title": "Questions fréquentes",
+      "viewAll": "Voir toute la FAQ"
+    },
+    "video": {
+      "play": "Lire la vidéo"
+    },
+    "hero": {
+      "customStayCta": "Créer mon séjour sur mesure"
+    },
+    "finalCta": {
+      "contact": "Nous contacter",
+      "quote": "Demander un devis"
+    }
+  },
+  "excursions": {
+    "title": "Nos excursions",
+    "subtitle": "Découvrez la Martinique à travers nos expériences uniques",
+    "duration": "Durée",
+    "priceFrom": "À partir de",
+    "highlights": "Points forts",
+    "program": "Programme",
+    "included": "Inclus",
+    "notIncluded": "Non inclus",
+    "physicalLevel": "Niveau physique",
+    "cancellationPolicy": "Conditions d'annulation",
+    "book": "Réserver cette excursion",
+    "about": "À propos"
+  },
+  "stays": {
+    "title": "Séjours immersifs",
+    "subtitle": "Vivez une expérience complète de la culture martiniquaise",
+    "days": "jours",
+    "priceFrom": "À partir de",
+    "highlights": "Points forts",
+    "program": "Programme",
+    "included": "Inclus",
+    "notIncluded": "Non inclus",
+    "cancellationPolicy": "Conditions d'annulation",
+    "book": "Réserver ce séjour",
+    "about": "À propos"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour répondre à vos questions",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone",
+      "subject": "Objet",
+      "selectSubject": "Sélectionnez un objet",
+      "subjectInfo": "Demande d'information",
+      "subjectQuote": "Demande de devis",
+      "subjectBooking": "Réservation",
+      "subjectOther": "Autre",
+      "message": "Message",
+      "privacy": "J'accepte que mes données soient utilisées pour répondre à ma demande. Consultez notre politique de confidentialité.",
+      "send": "Envoyer",
+      "sending": "Envoi en cours..."
+    }
+  },
+  "footer": {
+    "description": "LUDICADEMI - Excursions et séjours immersifs en Martinique",
+    "quickLinks": "Liens rapides",
+    "legal": "Légal",
+    "terms": "CGV",
+    "privacy": "Confidentialité",
+    "legalNotice": "Mentions légales",
+    "rights": "Tous droits réservés"
+  },
+  "trust": {
+    "award": "Récompensé",
+    "experience": "Expérience",
+    "yearsExperience": "10+ ans d'expérience",
+    "clients": "Clients",
+    "clientsServed": "500+ clients accompagnés",
+    "rating": "4.9/5",
+    "basedOnReviews": "Basé sur 120 avis"
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Découvrez les témoignages de voyageurs qui ont vécu une expérience unique avec LUDICADEMI"
+  },
+  "cta": {
+    "requestQuote": "Demander un devis",
+    "requestInfo": "Demander des informations",
+    "downloadGuide": "Télécharger le guide gratuit"
+  },
+  "about": {
+    "title": "À propos de LUDICADEMI",
+    "subtitle": "Découvrez l'histoire et la passion derrière nos expériences immersives",
+    "metaDescription": "Découvrez LUDICADEMI, expert en immersion culturelle en Martinique. Fondateur passionné, mission et valeurs.",
+    "founder": {
+      "name": "PHAYNE ANTON",
+      "bio": "Passionné par la culture caribéenne depuis plus de 10 ans, je vous guide à travers des expériences authentiques qui vous permettent de découvrir la Martinique sous un angle unique.",
+      "expertise": "Auteur sous le nom de PHAYNE ANTON, je combine ma passion pour la culture locale avec des excursions et séjours immersifs qui vous transportent au cœur de l'identité martiniquaise. Mon expertise locale et culturelle vous garantit une immersion totale et authentique."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Offrir des expériences authentiques et immersives qui permettent de découvrir la Martinique autrement, en créant des liens durables avec la culture et les habitants locaux."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "value1": "Authenticité dans chaque expérience",
+      "value2": "Respect de la culture et des traditions",
+      "value3": "Excellence dans l'accueil et le service",
+      "value4": "Engagement pour un tourisme responsable"
+    },
+    "legal": {
+      "title": "Informations Légales",
+      "company": "Raison sociale",
+      "siret": "SIRET",
+      "siretValue": "En cours d'immatriculation",
+      "address": "Adresse",
+      "insurance": "Assurance",
+      "insuranceValue": "Assurance responsabilité civile professionnelle"
+    },
+    "cta": {
+      "contact": "Nous contacter",
+      "discover": "Découvrir nos offres"
+    }
+  },
+  "emailCapture": {
+    "title": "Téléchargez votre guide gratuit",
+    "subtitle": "Mini-guide pour préparer un voyage immersif en Martinique",
+    "emailPlaceholder": "Votre adresse email",
+    "submit": "Télécharger",
+    "submitting": "Téléchargement...",
+    "success": "Merci ! Vérifiez votre email pour télécharger le guide.",
+    "privacy": "Vos données sont protégées et ne seront jamais partagées."
+  }
+}

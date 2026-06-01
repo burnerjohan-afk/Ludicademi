@@ -1,0 +1,225 @@
+{
+  "common": {
+    "bookNow": "Book now",
+    "learnMore": "Learn more",
+    "contactUs": "Contact us",
+    "requestInfo": "Request info",
+    "readMore": "Read more",
+    "back": "Back",
+    "close": "Close",
+    "menu": "Menu",
+    "language": "Language"
+  },
+  "nav": {
+    "home": "Home",
+    "excursions": "Excursions",
+    "immersiveStays": "Immersive stays",
+    "novels": "Novels",
+    "about": "About",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Discover Martinique differently",
+    "subtitle": "Authentic excursions and immersive stays to experience Caribbean culture",
+    "hero": {
+      "title": "Welcome to Martinique",
+      "subtitle": "Cultural immersion and authentic discoveries",
+      "cta": "Discover our experiences"
+    },
+    "features": {
+      "title": "Why choose LUDICADEMI",
+      "authentic": {
+        "title": "Authenticity",
+        "description": "Authentic local experiences guided by an expert"
+      },
+      "cultural": {
+        "title": "Cultural immersion",
+        "description": "Discover Martinique's culture, history and heritage"
+      },
+      "personalized": {
+        "title": "Personalized",
+        "description": "Tailored experiences adapted to your desires"
+      },
+      "award": {
+        "title": "Awarded",
+        "description": "Travel & Hospitality Award"
+      }
+    },
+    "featuredExcursions": {
+      "title": "Our featured excursions",
+      "subtitle": "Discover our most popular experiences"
+    },
+    "featuredStay": {
+      "title": "Complete immersive stay",
+      "subtitle": "Dive into the heart of Martinique culture"
+    },
+    "novels": {
+      "title": "Caribbean novels",
+      "subtitle": "Extend the immersion with novels by PHAYNE ANTON",
+      "description": "Discover stories that transport you to the heart of the Caribbean"
+    },
+    "about": {
+      "title": "About the founder",
+      "description": "Passionate about Caribbean culture and expert in cultural immersion"
+    },
+    "journey": {
+      "title": "Choose your level of immersion",
+      "description": "From a few hours to several days, experience Martinique at your own pace",
+      "excursion": {
+        "duration": "1 day",
+        "title": "Guided excursion",
+        "description": "Discover a region in one day with a passionate guide",
+        "cta": "View excursions"
+      },
+      "stay": {
+        "duration": "2 to 8 days",
+        "title": "Immersive stay",
+        "description": "Culture, Creole and encounters over several days",
+        "cta": "View stays"
+      },
+      "custom": {
+        "duration": "Tailor-made",
+        "title": "Your own program",
+        "description": "Build your ideal stay activity by activity",
+        "cta": "Create my stay"
+      }
+    },
+    "blogTeaser": {
+      "title": "Get inspired before you go",
+      "description": "Tips, itineraries and Martinique culture on our blog",
+      "viewAll": "View all articles"
+    },
+    "faqTeaser": {
+      "title": "Frequently asked questions",
+      "viewAll": "View full FAQ"
+    },
+    "video": {
+      "play": "Play video"
+    },
+    "hero": {
+      "customStayCta": "Create your tailor-made stay"
+    },
+    "finalCta": {
+      "contact": "Contact us",
+      "quote": "Request a quote"
+    }
+  },
+  "excursions": {
+    "title": "Our excursions",
+    "subtitle": "Discover Martinique through our unique experiences",
+    "duration": "Duration",
+    "priceFrom": "From",
+    "highlights": "Highlights",
+    "program": "Program",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "physicalLevel": "Physical level",
+    "cancellationPolicy": "Cancellation policy",
+    "book": "Book this excursion",
+    "about": "About"
+  },
+  "stays": {
+    "title": "Immersive stays",
+    "subtitle": "Experience the complete Martinique culture",
+    "days": "days",
+    "priceFrom": "From",
+    "highlights": "Highlights",
+    "program": "Program",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "cancellationPolicy": "Cancellation policy",
+    "book": "Book this stay",
+    "about": "About"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "We are here to answer your questions",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "subject": "Subject",
+      "selectSubject": "Select a subject",
+      "subjectInfo": "Information request",
+      "subjectQuote": "Quote request",
+      "subjectBooking": "Booking",
+      "subjectOther": "Other",
+      "message": "Message",
+      "privacy": "I accept that my data be used to respond to my request. See our privacy policy.",
+      "send": "Send",
+      "sending": "Sending..."
+    }
+  },
+  "footer": {
+    "description": "LUDICADEMI - Excursions and immersive stays in Martinique",
+    "quickLinks": "Quick links",
+    "legal": "Legal",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "legalNotice": "Legal notice",
+    "rights": "All rights reserved"
+  },
+  "trust": {
+    "award": "Awarded",
+    "experience": "Experience",
+    "yearsExperience": "10+ years of experience",
+    "clients": "Clients",
+    "clientsServed": "500+ clients served",
+    "rating": "4.9/5",
+    "basedOnReviews": "Based on 120 reviews"
+  },
+  "testimonials": {
+    "title": "What our clients say",
+    "subtitle": "Discover testimonials from travelers who experienced a unique adventure with LUDICADEMI"
+  },
+  "cta": {
+    "requestQuote": "Request a quote",
+    "requestInfo": "Request information",
+    "downloadGuide": "Download free guide"
+  },
+  "about": {
+    "title": "About LUDICADEMI",
+    "subtitle": "Discover the story and passion behind our immersive experiences",
+    "metaDescription": "Discover LUDICADEMI, expert in cultural immersion in Martinique. Passionate founder, mission and values.",
+    "founder": {
+      "name": "PHAYNE ANTON",
+      "bio": "Passionate about Caribbean culture for over 10 years, I guide you through authentic experiences that allow you to discover Martinique from a unique angle.",
+      "expertise": "Author under the name PHAYNE ANTON, I combine my passion for local culture with excursions and immersive stays that transport you to the heart of Martinique identity. My local and cultural expertise guarantees you a total and authentic immersion."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Offer authentic and immersive experiences that allow you to discover Martinique differently, creating lasting bonds with the culture and local inhabitants."
+    },
+    "values": {
+      "title": "Our Values",
+      "value1": "Authenticity in every experience",
+      "value2": "Respect for culture and traditions",
+      "value3": "Excellence in welcome and service",
+      "value4": "Commitment to responsible tourism"
+    },
+    "legal": {
+      "title": "Legal Information",
+      "company": "Company name",
+      "siret": "SIRET",
+      "siretValue": "Registration in progress",
+      "address": "Address",
+      "insurance": "Insurance",
+      "insuranceValue": "Professional liability insurance"
+    },
+    "cta": {
+      "contact": "Contact us",
+      "discover": "Discover our offers"
+    }
+  },
+  "emailCapture": {
+    "title": "Download your free guide",
+    "subtitle": "Mini-guide to prepare an immersive trip to Martinique",
+    "emailPlaceholder": "Your email address",
+    "submit": "Download",
+    "submitting": "Downloading...",
+    "success": "Thank you! Check your email to download the guide.",
+    "privacy": "Your data is protected and will never be shared."
+  }
+}
