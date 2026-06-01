@@ -1,6 +1,7 @@
 import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
+import { routing } from '@/i18n/routing';
 import { locales, type Locale } from '@/lib/locales';
 import { lato, playfair } from '@/lib/fonts';
 import Header from '@/components/Header';
@@ -8,12 +9,12 @@ import Footer from '@/components/Footer';
 import PromoBanner from '@/components/PromoBanner';
 
 export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
+  return routing.locales.map((locale) => ({ locale }));
 }
 
 export default async function LocaleLayout({
   children,
-  params: { locale }
+  params: { locale },
 }: {
   children: React.ReactNode;
   params: { locale: string };
@@ -28,7 +29,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${lato.variable} ${playfair.variable}`}>
       <body className="font-sans antialiased">
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <PromoBanner />
           <Header />
           <main>{children}</main>
